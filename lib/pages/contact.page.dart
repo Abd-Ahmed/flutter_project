@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 import '../menu/drawer.widget.dart';
@@ -44,7 +43,8 @@ class ContactPage extends StatelessWidget {
                   style: TextStyle(fontSize: 20.0),
                 ),
               ],
-            ),    SizedBox(height: 10.0),
+            ),
+            SizedBox(height: 10.0),
             Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -61,12 +61,12 @@ class ContactPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Image.asset(
-                  'images/icons8-facebook-48.png',
+                  'images/linkedin.png',
                   height: 30.0,
                 ),
                 SizedBox(width: 10.0),
                 Text(
-                  'Ahmed Abdennadher',
+                  'ahmed-abdennadher01',
                   style: TextStyle(fontSize: 20.0),
                 ),
               ],
@@ -76,23 +76,19 @@ class ContactPage extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
                 Image.asset(
-                  'images/instagram.png',
+                  'images/github.png',
                   height: 30.0,
                 ),
                 SizedBox(width: 10.0),
                 Text(
-                  'Ahmed Abdennadher',
+                  'Abd-Ahmed',
                   style: TextStyle(fontSize: 20.0),
                 ),
               ],
             ),
-
-
           ],
         ),
       ),
     );
   }
 }
-
-
