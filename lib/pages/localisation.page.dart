@@ -10,7 +10,7 @@ class LocalisationPage extends StatefulWidget {
 class LocalisationPageState extends State<LocalisationPage> {
   late GoogleMapController mapController;
 
-  final LatLng _center = const LatLng(34.84129366323506, 10.754931282520573); // Coordonnées de l'emplacement fixe
+  final LatLng _center = const LatLng(34.787097, 10.719583); // Coordonnées de l'emplacement fixe
 
   @override
   Widget build(BuildContext context) {
